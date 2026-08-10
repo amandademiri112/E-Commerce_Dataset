@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/SQL-blue)  
+![Static Badge](https://img.shields.io/badge/SQL-blue)
 # Brazilian E-Commerce_Dataset
 #### Project that uses SQL to analyse a Brazilian e-commerce dataset.
 
