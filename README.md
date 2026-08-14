@@ -1,6 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/SQL-blue)  
   
-# Brazilian E-Commerce_Dataset
+# Brazilian E-Commerce_Dataset - Not Completed  
 #### SQL project that demonstrates exploratory data analysis using Brazilian E-Commerce data.
 
 ## Contents   
