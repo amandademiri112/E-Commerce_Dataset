@@ -139,7 +139,7 @@ SQLite was used instead of MySQL because this was a standalone local analysis pr
 
 ## Final Project
 
-**[Go to Final Project](Final_Project/braziecomdata.ipynb)**
+**[Go to Final Project](Final_Project/brazilecomdata.ipynb)**
 
 ###### Dataset: [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
