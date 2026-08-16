@@ -37,28 +37,28 @@ The analysis also focuses on identifying factors that contribute to revenue and 
 
 ![Static Badge](https://img.shields.io/badge/Technical%20Skills-steelblue)
 
-- SQL
-- SELECT statements
-- WHERE clauses
-- DISTINCT
-- Aggregate functions
-- GROUP BY
-- HAVING
-- ORDER BY
-- CASE statements
+- SELECT
+- COUNT()
+- COUNT(DISTINCT)
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+- ROUND()
+- COALESCE()
+- CASE / WHEN / ELSE
+- WITH / CTEs
+- Subqueries
 - INNER JOIN
 - LEFT JOIN
-- Common Table Expressions (CTEs)
-- Window functions
-- LAG()
-- RANK()
-- Date and time functions
-- Data filtering and preparation
-- Data aggregation and grouping
-- Exploratory Data Analysis (EDA)
-- Customer segmentation
-- Revenue analysis
-- Business-focused data analysis
+- GROUP BY
+- ORDER BY
+- LIMIT
+- STRFTIME()
+- JULIANDAY()
+- RANK() OVER()
+- Date arithmetic
+- Conditional filtering with WHERE
   
 ![Static Badge](https://img.shields.io/badge/Soft%20Skills-9994C0)
 
@@ -68,48 +68,44 @@ The analysis also focuses on identifying factors that contribute to revenue and 
 - Communicating insights and recommendations
 - Translating data findings into business-focused conclusions
 
-## Key Insights
+## Conclusion
 
-- Revenue was analysed across the full period covered by the dataset, allowing changes in monthly revenue and month-over-month growth to be investigated.
-- Average Order Value was calculated by first aggregating payment values at order level, providing an indication of the average amount spent per order.
-- Product category analysis was used to identify which categories generated the most revenue and which categories contributed less.
-- Customer analysis identified individual customer spending patterns and ranked customers based on their total spend.
-- Customers were segmented into High Value, Medium Value and Low Value groups based on their total spending, providing a way to compare different levels of customer value.
-- Review analysis was used to investigate customer satisfaction, with the average review score calculated across the dataset.
-- Delivery performance was analysed by calculating the number of days between an order's purchase date and its delivery date.
-- The relationship between delivery time and review score was investigated to determine whether delivery performance may be associated with customer satisfaction.
-- Seller performance was analysed by comparing order volume, revenue and average review score, while only considering sellers with at least 50 orders to make the comparison more meaningful.
-- Product categories were ranked by revenue using the RANK() window function, making it possible to identify the highest-performing categories.
-- In a professional setting I would investigate the strongest and weakest results further to understand the reasons behind differences in revenue, customer spending, product performance, delivery times and customer satisfaction.
+- Analysed 99,441 orders between September 2016 and October 2018, generating R$16.01M in total revenue with an average order value of R$160.99.
 
-## Analysis
+- 96,478 orders were delivered, showing a high overall delivery completion rate, while cancellations, unavailable orders, and other incomplete statuses represented a smaller proportion of orders.
 
-- Total Revenue
-- Total Orders
-- Unique Customers
-- Order Status
-- Revenue by Payment Type
-- Average Order Value
-- Monthly Revenue
-- Month-over-Month Revenue Growth
-- Revenue by Product Category
-- Highest-Value Customers
-- Customer Segmentation
-- Average Review Score
-- Revenue by Review Score
-- Delivery Time by Review Score
-- Seller Performance
-- Product Category Revenue Ranking
-- Delivery Time Analysis
+- Revenue generally increased throughout 2017 and 2018, with November 2017 generating the highest monthly revenue at approximately R$1.19M.
 
-## Business Questions
+- September and October 2018 should not be interpreted as genuine revenue declines, as the dataset ends on 17 October 2018, making both months incomplete.
 
-- How has revenue changed over time?
-- Which product categories drive revenue?
-- Who are the highest-value customers?
-- Does delivery performance affect customer reviews?
-- Which sellers perform best?
+- Health & Beauty, Watches & Gifts, and Bed Bath Table were the three highest-revenue product categories, indicating strong demand in these areas.
 
+- Credit cards were the dominant payment method, generating approximately R$12.54M in revenue and accounting for the majority of transactions.
+
+- Customer analysis identified high-value customers, with the highest-spending customer generating R$13,664.08 in total spend.
+
+- Customer satisfaction was strongly associated with delivery performance: 1-star reviews averaged 21.31 days for delivery, compared with 10.69 days for 5-star reviews.
+
+- Overall delivery time averaged 12.56 days, but the maximum recorded delivery time was 209.63 days, highlighting potential extreme delivery issues.
+
+## Actionable insights
+
+- Improve delivery performance by investigating sellers, regions and logistics processes associated with longer delivery times.
+  
+- Prioritise high-value customer retention through loyalty programmes, personalised offers and targeted marketing.
+  
+- Invest in high-performing categories such as Health & Beauty, Watches & Gifts, and Bed Bath Table through inventory planning and marketing.
+  
+- Investigate low-performing categories before discontinuing them to determine whether low revenue is caused by demand, pricing, availability or limited marketing.
+  
+- Monitor cancelled, unavailable and delayed orders to identify operational problems and potential lost revenue.
+  
+- Optimise the credit-card checkout experience, given its dominant share of transactions and revenue.
+  
+-Use complete months when comparing revenue trends and clearly flag partial periods to avoid misleading conclusions.  
+
+- Overall, the analysis suggests that delivery reliability, customer retention and investment in high-performing product categories are the strongest opportunities for improving e-commerce performance.  
+  
 ## Previews
 
 Upcoming
