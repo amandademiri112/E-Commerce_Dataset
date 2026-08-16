@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/SQL-blue)  
+![Static Badge](https://img.shields.io/badge/SQL-blue)
+![Static Badge](https://img.shields.io/badge/Python-darkgreen)  
   
 # Brazilian E-Commerce_Dataset  
 #### SQL project that demonstrates exploratory data analysis using Brazilian E-Commerce data.
@@ -6,7 +7,8 @@
 ## Contents   
 - [Purpose](#purpose)  
 - [Objectives](#objectives)  
-- [Skills](#skills)  
+- [Skills](#skills)
+- [Queries](#queries)
 - [Conclusion](#conclusion)  
 - [Actionable Insights](#actionable-insights)  
 - [Previews](#previews)   
@@ -17,6 +19,8 @@
 I created this project to demonstrate my SQL skills by using them to explore and analyse a Brazilian E-Commerce Dataset. The analysis focuses on exploratory data analysis (EDA) and uses SQL to investigate revenue, sales performance, customer behaviour, product categories, sellers, delivery performance and customer satisfaction.  
   
 The analysis also focuses on identifying factors that contribute to revenue and areas where the business could investigate opportunities for improvement.  
+
+SQLite was used instead of MySQL because this was a standalone local analysis project where a lightweight, self-contained database was more practical than maintaining a separate database server. Python's sqlite3 library allowed the database to be created and queried directly within the Jupyter Notebook, making the project easier to reproduce while still demonstrating transferable SQL skills.  
   
 ## Objectives
 
@@ -68,6 +72,24 @@ The analysis also focuses on identifying factors that contribute to revenue and 
 - Communicating insights and recommendations
 - Translating data findings into business-focused conclusions
 
+## Queries
+
+- Read Data
+- Total Orders
+- Total Customers
+- Range of Orders
+- Orders per Status
+- Total Revenue
+- Transactions and Revenue per Payment Type
+- Average Order Price
+- Revenue per Month
+- Orders and Revenue per Category
+- Top 5 Highest Value Customers
+- Average Review Score
+- Average Delivery Time per Review Score
+- Highest and Lowest Revenue per Category
+- Lowest, Average, and Highest Delivery Times  
+  
 ## Conclusion
 
 - Analysed 99,441 orders between September 2016 and October 2018, generating R$16.01M in total revenue with an average order value of R$160.99.  
@@ -106,7 +128,8 @@ The analysis also focuses on identifying factors that contribute to revenue and 
 
 - Overall, the analysis suggests that delivery reliability, customer retention and investment in high-performing product categories are the strongest opportunities for improving e-commerce performance.    
   
-## Previews
+## Previews 
+###### Does not include all queries  
 
 ![Preview1](Assets/Preview1.PNG) 
 
