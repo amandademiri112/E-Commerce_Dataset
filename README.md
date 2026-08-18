@@ -5,6 +5,7 @@
 #### SQL project that demonstrates exploratory data analysis using Brazilian E-Commerce data.
 
 ## Contents   
+  
 - [Purpose](#purpose)  
 - [Objectives](#objectives)  
 - [Skills](#skills)
@@ -12,7 +13,8 @@
 - [Conclusion](#conclusion)  
 - [Actionable Insights](#actionable-insights)  
 - [Previews](#previews)   
-- [Final Project](#final-project)  
+- [Final Project](#final-project)
+- [Dataset](#dataset)
   
 ## Purpose
 
@@ -41,37 +43,28 @@ SQLite was used instead of MySQL because this was a standalone local analysis pr
 
 ![Static Badge](https://img.shields.io/badge/Technical%20Skills-steelblue)
 
-- SELECT
-- COUNT()
-- COUNT(DISTINCT)
-- SUM()
-- AVG()
-- MIN()
-- MAX()
-- ROUND()
-- COALESCE()
-- CASE / WHEN / ELSE
-- WITH / CTEs
-- Subqueries
-- INNER JOIN
-- LEFT JOIN
-- GROUP BY
-- ORDER BY
-- LIMIT
-- STRFTIME()
-- JULIANDAY()
-- RANK() OVER()
-- Date arithmetic
-- Conditional filtering with WHERE  
+- **SQL:** Aggregations, joins, subqueries, CTEs, window functions, conditional logic,
+date/time functions, filtering, grouping, and sorting. 
    
 ![Static Badge](https://img.shields.io/badge/Soft%20Skills-9994C0)
 
-- Interpreting analytical results
-- Identifying trends and patterns
-- Investigating business questions
-- Communicating insights and recommendations
-- Translating data findings into business-focused conclusions
-
+- **Data Analysis:** Descriptive statistics, trend analysis, customer and revenue
+analysis, category performance, payment analysis, and delivery metrics.
+  
+- **Business Analysis:** Identifying trends, answering business questions, interpreting
+results, and translating findings into actionable recommendations. 
+  
+-----
+  
+- **Key Analysis**  
+• Customer, order, and revenue performance  
+• Revenue and order trends by month and category  
+• Payment method and transaction analysis  
+• Customer value and review analysis  
+• Delivery performance and review relationships  
+• Highest/lowest performing categories  
+• Business insights and recommendations  
+  
 ## Queries
 
 - Read Data
@@ -139,9 +132,10 @@ SQLite was used instead of MySQL because this was a standalone local analysis pr
 
 ## Final Project
 
-**[Go to Final Project](Final_Project/brazilecomdata.ipynb)**
+**[Go to Final Project](Final_Project/brazilecomdata.ipynb)**  
 
-###### Dataset: [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+## Dataset
+**Brazilian E-Commerce Public Dataset:** [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 
 ###### Dataset downloaded originally cleaned
 
