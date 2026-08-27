@@ -138,5 +138,3 @@ results, and translating findings into actionable recommendations.
 **Brazilian E-Commerce Public Dataset:** [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
 
 ###### Dataset downloaded originally cleaned
-
-###### Currently working on a dashboard for this project with Power BI
