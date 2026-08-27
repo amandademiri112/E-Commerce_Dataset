@@ -40,19 +40,19 @@ SQLite was used instead of MySQL because this was a standalone local analysis pr
 - Draw conclusions and potential recommendations from the results.  
 
 ## Skills
-
-![Static Badge](https://img.shields.io/badge/Technical%20Skills-steelblue)
-
-- **SQL:** Aggregations, joins, subqueries, CTEs, window functions, conditional logic,
-date/time functions, filtering, grouping, and sorting. 
-   
-![Static Badge](https://img.shields.io/badge/Soft%20Skills-9994C0)
-
-- **Data Analysis:** Descriptive statistics, trend analysis, customer and revenue
-analysis, category performance, payment analysis, and delivery metrics.
   
-- **Business Analysis:** Identifying trends, answering business questions, interpreting
-results, and translating findings into actionable recommendations. 
+| ![Static Badge](https://img.shields.io/badge/Technical%20Skills-steelblue) | ![Static Badge](https://img.shields.io/badge/Soft%20Skills-9994C0) |
+|---|---|
+| Sorting | Descriptive statistics |
+| Aggregations | Trend analysis |
+| Joins | Answering business questions |
+| Subqueries | Interpreting results |
+| CTEs | Finding actionable insights |
+| Window functions |  |
+| Conditional logic |  |
+| Date/time functions |  |
+| Filtering |  |
+| Grouping |  |
   
 -----
   
