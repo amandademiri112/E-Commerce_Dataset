@@ -16,7 +16,7 @@
 - [Final Project](#final-project)
 - [Dataset](#dataset)
   
-## Purpose
+## Purpose  
 
 I created this project to demonstrate my SQL skills by using them to explore and analyse a Brazilian E-Commerce Dataset. The analysis focuses on exploratory data analysis (EDA) and uses SQL to investigate revenue, sales performance, customer behaviour, product categories, sellers, delivery performance and customer satisfaction.  
   
