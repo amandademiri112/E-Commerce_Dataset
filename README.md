@@ -18,11 +18,7 @@
   
 ## Purpose  
 
-I created this project to demonstrate my SQL skills by using them to explore and analyse a Brazilian E-Commerce Dataset. The analysis focuses on exploratory data analysis (EDA) and uses SQL to investigate revenue, sales performance, customer behaviour, product categories, sellers, delivery performance and customer satisfaction.  
-  
-The analysis also focuses on identifying factors that contribute to revenue and areas where the business could investigate opportunities for improvement.  
-
-SQLite was used instead of MySQL because this was a standalone local analysis project where a lightweight, self-contained database was more practical than maintaining a separate database server. Python's sqlite3 library allowed the database to be created and queried directly within the Jupyter Notebook, making the project easier to reproduce while still demonstrating transferable SQL skills.  
+The purpose of this project is to demonstrate my SQL skills by using them to explore and analyse a Brazilian E-Commerce Dataset. The analysis focuses on exploratory data analysis (EDA) and uses SQL to investigate revenue, sales performance, customer behaviour, product categories, sellers, delivery performance and customer satisfaction, as well as identify areas where the business could investigate opportunities for improvement.
   
 ## Objectives
 
