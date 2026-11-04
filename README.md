@@ -2,7 +2,6 @@
 ![Static Badge](https://img.shields.io/badge/Python-darkgreen)  
   
 # Brazilian E-Commerce_Dataset  
-#### SQL project that demonstrates exploratory data analysis using Brazilian E-Commerce data.
 
 ## Contents   
   
